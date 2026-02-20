@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>3D Escape Room - C Language Challenge</title>
+    <style>
+      :root {
+        --app-height: 100%;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        height: 100dvh;
+        background-color: #f8fafc;
+        color: #0f172a;
+        overflow: hidden;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        min-height: 100vh;
+      }
+      #root {
+        width: 100vw;
+        height: 100vh;
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        min-height: 100vh;
+      }
+      @media (max-width: 640px) {
+        html, body {
+          font-size: 14px;
+        }
+      }
+      @media (max-width: 480px) {
+        html, body {
+          font-size: 12px;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "gsap": "https://esm.sh/gsap@^3.14.2",
+        "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+        "three": "https://esm.sh/three@^0.182.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 overflow-hidden m-0 p-0 select-none">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "3D Escape Room: C Challenge",
+  "description": "A 5-level 3D escape room game where players solve C language challenges to progress through levels in a single reusable room environment.",
+  "requestFramePermissions": []
+}
