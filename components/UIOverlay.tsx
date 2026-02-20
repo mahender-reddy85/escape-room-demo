@@ -139,20 +139,6 @@ const UIOverlay: React.FC<UIOverlayProps> = ({
                <span className="text-[8rem] sm:text-[10rem] md:text-[12rem] font-black italic">C</span>
             </div>
 
-            <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-72 lg:h-72 mb-6 sm:mb-8 md:mb-10 relative group animate-float flex items-center justify-center">
-                <div className="absolute inset-0 bg-blue-600/10 blur-[40px] sm:blur-[60px] md:blur-[80px] group-hover:bg-blue-600/20 transition-all rounded-full"></div>
-                <div className="relative w-full h-full border-4 sm:border-6 md:border-8 border-slate-950 bg-slate-100 p-2 sm:p-3 md:p-4 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)] sm:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.3)] md:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.3)] overflow-hidden rounded-sm transform group-hover:rotate-1 transition-transform">
-                    {/* QR Code Implementation for Payment/Form */}
-                    <img 
-                      src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://forms.gle/G7yYdCQqQqyPc1Rs5" 
-                      alt="Google Pay Challenge QR" 
-                      className="w-full h-full object-contain mix-blend-multiply opacity-90 group-hover:opacity-100 transition-opacity"
-                    />
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 bg-white rounded-full shadow-xl flex items-center justify-center border-2 border-slate-100">
-                       <div className="w-6 h-1 sm:w-8 sm:h-1.5 md:w-10 md:h-2 bg-blue-600 rounded-lg"></div>
-                    </div>
-                </div>
-            </div>
 
             <div className="max-w-md w-full space-y-6 sm:space-y-8 z-10">
               <div className="space-y-3 sm:space-y-4">
@@ -166,20 +152,6 @@ const UIOverlay: React.FC<UIOverlayProps> = ({
                 <span className="absolute -top-3 sm:-top-4 left-2 sm:left-4 text-2xl sm:text-3xl md:text-4xl text-blue-200 font-serif">"</span>
                 "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."
                 <span className="absolute -bottom-6 sm:-bottom-8 md:-bottom-10 right-2 sm:right-4 text-2xl sm:text-3xl md:text-4xl text-blue-200 font-serif">"</span>
-              </div>
-
-              <div className="pt-4 sm:pt-6">
-                <a 
-                  href="https://forms.gle/G7yYdCQqQqyPc1Rs5" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="group relative flex items-center justify-center w-full py-4 sm:py-5 md:py-6 lg:py-7 bg-slate-950 text-white font-black uppercase tracking-[0.3em] sm:tracking-[0.4em] md:tracking-[0.5em] text-[12px] sm:text-[14px] md:text-[16px] transition-all shadow-[0_15px_30px_-5px_rgba(0,0,0,0.4)] sm:shadow-[0_20px_40px_-8px_rgba(0,0,0,0.4)] md:shadow-[0_25px_60px_-10px_rgba(0,0,0,0.4)] hover:bg-blue-600 hover:-translate-y-1 sm:hover:-translate-y-2 active:translate-y-0 rounded-sm"
-                >
-                  <span className="relative z-10">Initialize Entry</span>
-                  <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 ml-2 sm:ml-4 group-hover:translate-x-1 sm:group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} sm:strokeWidth={2} md:strokeWidth={3} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </a>
               </div>
 
               <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0 border-t border-slate-100 pt-4 sm:pt-6">

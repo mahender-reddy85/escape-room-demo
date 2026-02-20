@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # 3D Escape Room Challenge
 
 An interactive 3D escape room game built with React, Three.js, and TypeScript. Solve puzzles, find clues, and escape from challenging rooms using your problem-solving skills.
